@@ -8,7 +8,7 @@ import pandas as pd
 import pywhatkit as kit
 
 # Baca file Excel
-df = pd.read_excel("data2.xlsx", header=None)
+df = pd.read_excel("data.xlsx", header=None)
 df.columns = ["No", "Nama", "NomorHP"]
 
 # Format nomor
@@ -41,20 +41,24 @@ for index, row in df.iterrows():
 
 Hi {nama}
 
-🎨 Tertarik jadi UI/UX Designer? Tapi bingung mulai dari mana?
-Tenang! Inatechno hadir dengan Workshop UI/UX Fundamental: Design Digital untuk Pemula 🔥
+🔐 WASPADAI ANCAMAN ONLINE DI ERA DIGITAL! 🔐
+Jangan sampai jadi korban kejahatan siber hanya karena kurang informasi 😱
+Yuk ikut Workshop Session "Kenali Ancaman Online" bareng INATECHNO!
 
-💡 Kamu akan belajar:
-✅ Konsep dasar UI & UX
-✅ Desain prinsip yang bisa langsung dipraktikkan
-✅ Cara bikin wireframe & prototype pakai Figma
-✅ Menyusun user flow
-✅ Cara menilai kualitas desain digital
+📅 Tanggal: 10 Mei 2025
+📍 Daftar di: https://bit.ly/workshop-ina
+💰 HTM: Hanya Rp. 20K aja!
 
-📅 Tanggal: 26 April 2025
-📍 Hybrid Workshop - Kuota Terbatas!
+📌 Apa yang akan kamu pelajari?
+✔ Cara melindungi data pribadi secara sederhana
+✔ Modus penipuan digital yang sering terjadi
+✔ Cara mengenali tautan & pesan palsu
+✔ Jenis malware & cara menghindarinya
 
-🎟 Daftar sekarang: bit.ly/work-ina"""
+💻 Cocok banget buat kamu yang aktif di dunia digital!
+👉 Yuk amankan data pribadi dari sekarang!
+
+#WorkshopCyberSecurity #OnlineSafety #KeamananDigital #INATECHNO #WEREGOINGTOTTHETOP #PelatihanOnline"""
 
     try:
         print(f"Mengirim pesan dan poster ke {nama} ({nomor})...")
@@ -69,7 +73,7 @@ Tenang! Inatechno hadir dengan Workshop UI/UX Fundamental: Design Digital untuk 
         )
         
         print(f"Berhasil mengirim ke {nama}")
-        time.sleep(10)  # jeda antar pesan, biar gak dianggap spam
+        time.sleep(20)  # jeda antar pesan, biar gak dianggap spam
     except Exception as e:
         print(f"Gagal kirim ke {nama} ({nomor}) - {e}")
 
